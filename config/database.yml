@@ -82,4 +82,4 @@ production:
   <<: *default
   database: heroku-app-api_production
   username: heroku-app-api
-  password: <%= ENV['HEROKU-APP-API_DATABASE_PASSWORD'] %>
+  password: heroku-app-api
